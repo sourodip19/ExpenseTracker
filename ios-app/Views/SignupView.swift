@@ -26,3 +26,6 @@ struct SignupView: View {
         .padding()
     }
 }
+#Preview {
+    SignupView(authVM: AuthViewModel())
+}

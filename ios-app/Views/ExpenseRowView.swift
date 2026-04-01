@@ -22,3 +22,13 @@ struct ExpenseRowView: View {
         .padding(.vertical, 8)
     }
 }
+#Preview {
+    ExpenseRowView(
+        expense: Expense(
+            id: "1",
+            title: "Groceries",
+            amount: 1200,
+            category: "Food", date: <#String#>
+        )
+    )
+}

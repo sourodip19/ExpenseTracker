@@ -18,3 +18,6 @@ struct HomeView: View {
         }
     }
 }
+#Preview {
+    HomeView(token: "sample_token")
+}
